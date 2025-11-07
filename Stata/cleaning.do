@@ -1,6 +1,6 @@
 **** Data cleaning *****
 
-cd "C:\Users\Pakozdi_Benedek\Desktop\Coding for economics\assignment\Stata\data"
+cd "C:\Users\Pakozdi_Benedek\Desktop\Coding for economics\assignment\Stata\data\raw"
 
 import delimited "raw/airbnb_london_listing.csv", varnames(1) bindquotes(strict) encoding("utf-8") clear
 
